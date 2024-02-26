@@ -1,0 +1,8 @@
+#coverage controls coverage guided testing
+coverage: true
+#testLimit is the number of test sequences to run
+testLimit: 50000
+#seqLen defines how many transactions are in a test sequence
+seqLen: 100
+#solcArgs allows special args to solc
+solcArgs: "--optimize --optimize-runs 200"
